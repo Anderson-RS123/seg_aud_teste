@@ -3,8 +3,8 @@ import sqlite3
 def conectar_banco():
     # ERRO DE SEGURANÇA 1 (SAST): Credencial exposa no código.
     # O SAST vai detectar a palavra 'password' recebendo uma string fixa.
-    db_password = "super_senha_secreta_123"
-    print(f"Conectando ao banco de forma insegura com a senha: {db_password}") #mera simulação
+    apenaskj = "super_senha_secreta_123"
+    print(f"Conectando ao banco de forma insegura com a senha: {apenaskj}") #mera simulação
 
 def buscar_usuario(nome_usuario):
     # ERRO DE SEGURANÇA 2 (SAST): Risco crítico de SQL Injection.
